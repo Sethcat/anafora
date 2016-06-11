@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema>
+<definition>
+<entities type="Entities" color="a60000">
+	<entity type="entity1" color="FFA3A3" hotkey="1">
+	</entity>
+
+	<entity type="entity2" color="65CF69" hotkey="2">
+	</entity>
+	
+</entities>
+
+<relations type="relations" color="006363" >
+	<relation type="人物：别名" color="33cccc" hotkey="1">
+		<properties>
+			<property type="人物" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="别名" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="人物：出生日期" color="FFA3A3" hotkey="2">
+		<properties>
+			<property type="人物" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="出生日期" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="人物：年龄" color="65CF69" hotkey="3">
+		<properties>
+			<property type="人物" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="年龄" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="人物：出生国家" color="FFA321" hotkey="4">
+		<properties>
+			<property type="人物" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="国家" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="人物：出生省州" color="FFA321" hotkey="g">
+		<properties>
+			<property type="人物" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="出生省州" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="人物：出生城市" color="FFA321" hotkey="g">
+		<properties>
+			<property type="人物" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="出生城市" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="人物：出身" color="FFA321" hotkey="g">
+		<properties>
+			<property type="人物" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="出身" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="人物：逝世日期" color="FFA321" hotkey="g">
+		<properties>
+			<property type="人物" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="逝世日期" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="人物：逝世国家" color="FFA321" hotkey="g">
+		<properties>
+			<property type="人物" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="逝世国家" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="人物：逝世省州" color="FFA321" hotkey="g">
+		<properties>
+			<property type="人物" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="逝世省州" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="人物：逝世城市" color="FFA321" hotkey="g">
+		<properties>
+			<property type="人物" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="逝世城市" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="人物：死因" color="FFA321" hotkey="g">
+		<properties>
+			<property type="人物" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="死因" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="人物：居住国家" color="FFA321" hotkey="g">
+		<properties>
+			<property type="人物" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="居住国家" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="人物：居住省州" color="FFA321" hotkey="g">
+		<properties>
+			<property type="人物" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="居住省州" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="人物：居住城市" color="FFA321" hotkey="g">
+		<properties>
+			<property type="人物" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="居住城市" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="人物：学校" color="FFA321" hotkey="g">
+		<properties>
+			<property type="人物" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="学校" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="人物：头衔" color="FFA321" hotkey="g">
+		<properties>
+			<property type="人物" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="头衔" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="人物：雇员成员" color="FFA321" hotkey="g">
+		<properties>
+			<property type="人物" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="雇员成员" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="人物：宗教信仰" color="FFA321" hotkey="g">
+		<properties>
+			<property type="人物" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="宗教信仰" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="人物：配偶" color="FFA321" hotkey="g">
+		<properties>
+			<property type="人物" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="配偶" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="人物：子女" color="FFA321" hotkey="g">
+		<properties>
+			<property type="人物" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="子女" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="人物：父母" color="FFA321" hotkey="g">
+		<properties>
+			<property type="人物" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="父母" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="人物：兄弟姐妹" color="FFA321" hotkey="g">
+		<properties>
+			<property type="人物" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="兄弟姐妹" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="人物：其他家庭成员" color="FFA321" hotkey="g">
+		<properties>
+			<property type="人物" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="其他家庭成员" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="人物：罪名" color="FFA321" hotkey="g">
+		<properties>
+			<property type="人物" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="罪名" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="组织机构：别名" color="FFA321" hotkey="g">
+		<properties>
+			<property type="组织机构" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="别名" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="组织机构：政党宗教信仰" color="FFA321" hotkey="g">
+		<properties>
+			<property type="组织机构" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="政党宗教信仰" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="组织机构：高级成员" color="FFA321" hotkey="g">
+		<properties>
+			<property type="组织机构" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="高级成员" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="组织机构：员工人数" color="FFA321" hotkey="g">
+		<properties>
+			<property type="组织机构" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="员工人数" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="组织机构：所属成员" color="FFA321" hotkey="g">
+		<properties>
+			<property type="组织机构" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="所属成员" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="组织机构：隶属于" color="FFA321" hotkey="g">
+		<properties>
+			<property type="组织机构" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="隶属于" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="组织机构：子公司" color="FFA321" hotkey="g">
+		<properties>
+			<property type="组织机构" input="list" maxlink="10" instanceOf="entity1"/>
+			<property type="子公司" input="list" maxlink="10" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="组织机构：母公司" color="FFA321" hotkey="g">
+		<properties>
+			<property type="组织机构" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="母公司" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="组织机构：创始人" color="FFA321" hotkey="g">
+		<properties>
+			<property type="组织机构" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="创始人" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="组织机构：成立时间" color="FFA321" hotkey="g">
+		<properties>
+			<property type="组织机构" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="成立时间" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="组织机构：解散时间" color="FFA321" hotkey="g">
+		<properties>
+			<property type="组织机构" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="解散时间" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="组织机构：总部国家" color="FFA321" hotkey="g">
+		<properties>
+			<property type="组织机构" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="总部国家" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="组织机构：总部省州" color="BFA321" hotkey="g">
+		<properties>
+			<property type="组织机构" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="总部省州" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="组织机构：总部城市" color="FFA321" hotkey="g">
+		<properties>
+			<property type="组织机构" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="总部城市" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="组织机构：股东" color="FFA321" hotkey="g">
+		<properties>
+			<property type="组织机构" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="股东" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+	<relation type="组织机构：官网" color="FFA321" hotkey="g">
+		<properties>
+			<property type="组织机构" input="list" maxlink="1" instanceOf="entity1"/>
+			<property type="官网" input="list" maxlink="1" instanceOf="entity2"/>
+		 	<property type="结果" input="choice">,是,否,其它,丢弃</property>
+		</properties>
+	</relation>
+
+</relations>
+</definition>
+</schema>

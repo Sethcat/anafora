@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+<info>
+  <savetime>22:58:01 21-04-2016</savetime>
+  <progress>in-progress</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>1@e@doc22@anafora</id>
+		<span>14,31</span>
+		<type>Anchor</type>
+		<parentsType>BeBorn</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>2@e@doc22@anafora</id>
+		<span>651,661</span>
+		<type>Person</type>
+		<parentsType>BeBorn</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+</annotations>
+
+</data>

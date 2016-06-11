@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+<info>
+  <savetime>14:08:55 09-03-2016</savetime>
+  <progress>completed</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>1@e@doc01@anafora</id>
+		<span>164,166</span>
+		<type>Person</type>
+		<parentsType>BeBorn</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>2@e@doc01@anafora</id>
+		<span>168,170</span>
+		<type>Person</type>
+		<parentsType>BeBorn</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>3@e@doc01@anafora</id>
+		<span>30,34</span>
+		<type>Person</type>
+		<parentsType>BeBorn</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>4@e@doc01@anafora</id>
+		<span>68,70</span>
+		<type>Person</type>
+		<parentsType>BeBorn</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>5@e@doc01@anafora</id>
+		<span>75,77</span>
+		<type>Person</type>
+		<parentsType>BeBorn</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>6@e@doc01@anafora</id>
+		<span>105,107</span>
+		<type>Person</type>
+		<parentsType>BeBorn</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>7@e@doc01@anafora</id>
+		<span>139,141</span>
+		<type>Person</type>
+		<parentsType>BeBorn</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>8@e@doc01@anafora</id>
+		<span>171,173</span>
+		<type>Person</type>
+		<parentsType>BeBorn</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>9@e@doc01@anafora</id>
+		<span>220,222</span>
+		<type>Person</type>
+		<parentsType>BeBorn</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>10@e@doc01@anafora</id>
+		<span>16,21</span>
+		<type>Time</type>
+		<parentsType>BeBorn</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>11@e@doc01@anafora</id>
+		<span>51,53</span>
+		<type>Place</type>
+		<parentsType>BeBorn</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>12@e@doc01@anafora</id>
+		<span>92,95</span>
+		<type>Place</type>
+		<parentsType>BeBorn</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>13@e@doc01@anafora</id>
+		<span>227,229</span>
+		<type>Place</type>
+		<parentsType>BeBorn</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>14@e@doc01@anafora</id>
+		<span>86,89</span>
+		<type>Time</type>
+		<parentsType>BeBorn</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<relation>
+		<id>8@r@doc01@anafora</id>
+		<type>born</type>
+		<parentsType>BeBornRelations</parentsType>
+		<properties>
+			<Arg1></Arg1>
+			<Arg2></Arg2>
+			<Arg3></Arg3>
+		</properties>
+	</relation>
+
+</annotations>
+
+</data>

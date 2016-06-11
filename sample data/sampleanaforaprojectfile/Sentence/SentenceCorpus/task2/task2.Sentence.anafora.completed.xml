@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+<info>
+  <savetime>12:25:39 08-05-2016</savetime>
+  <progress>completed</progress>
+  <lastlabel>4</lastlabel></info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>1@e@Sentence@anafora</id>
+		<span>23,29</span>
+		<type>entity1</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>2@e@Sentence@anafora</id>
+		<span>32,37</span>
+		<type>entity2</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>3@e@Sentence@anafora</id>
+		<span>89,93</span>
+		<type>entity1</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>4@e@Sentence@anafora</id>
+		<span>96,100</span>
+		<type>entity2</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>5@e@Sentence@anafora</id>
+		<span>181,185</span>
+		<type>entity1</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>6@e@Sentence@anafora</id>
+		<span>193,197</span>
+		<type>entity2</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>7@e@Sentence@anafora</id>
+		<span>239,243</span>
+		<type>entity1</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>8@e@Sentence@anafora</id>
+		<span>248,252</span>
+		<type>entity2</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>9@e@Sentence@anafora</id>
+		<span>292,296</span>
+		<type>entity1</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>10@e@Sentence@anafora</id>
+		<span>301,305</span>
+		<type>entity2</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>12@e@task2@anafora</id>
+		<span>7,11</span>
+		<type>entity1</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+		</properties>
+	</entity>
+
+	<relation>
+		<id>1@r@Sentence@anafora</id>
+		<type>组织机构：子公司</type>
+		<parentsType>relations</parentsType>
+		<properties>
+			<组织机构>1@e@Sentence@anafora</组织机构>
+			<子公司>2@e@Sentence@anafora</子公司>
+			<结果>否</结果>
+		</properties>
+	</relation>
+
+	<relation>
+		<id>2@r@Sentence@anafora</id>
+		<type>组织机构：子公司</type>
+		<parentsType>relations</parentsType>
+		<properties>
+			<组织机构>3@e@Sentence@anafora</组织机构>
+			<子公司>4@e@Sentence@anafora</子公司>
+			<结果>是</结果>
+		</properties>
+	</relation>
+
+	<relation>
+		<id>3@r@Sentence@anafora</id>
+		<type>组织机构：子公司</type>
+		<parentsType>relations</parentsType>
+		<properties>
+			<组织机构>5@e@Sentence@anafora</组织机构>
+			<子公司>6@e@Sentence@anafora</子公司>
+			<结果>是</结果>
+		</properties>
+	</relation>
+
+	<relation>
+		<id>4@r@Sentence@anafora</id>
+		<type>组织机构：子公司</type>
+		<parentsType>relations</parentsType>
+		<properties>
+			<组织机构>7@e@Sentence@anafora</组织机构>
+			<子公司>8@e@Sentence@anafora</子公司>
+			<结果>是</结果>
+		</properties>
+	</relation>
+
+	<relation>
+		<id>5@r@Sentence@anafora</id>
+		<type>组织机构：子公司</type>
+		<parentsType>relations</parentsType>
+		<properties>
+			<组织机构>9@e@Sentence@anafora</组织机构>
+			<子公司>10@e@Sentence@anafora</子公司>
+			<结果>是</结果>
+		</properties>
+	</relation>
+
+</annotations>
+
+</data>

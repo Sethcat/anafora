@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<setting>
+	<projects>
+		<project name="SampleProject" numOfAnnotator="2">
+			<admin>anaforaec2admin</admin>
+			<annotator>annotatorGroup</annotator>
+			<schema>Medicine</schema>
+		</project>
+        <project name="EventProject" numOfAnnotator="2">
+            <admin>anaforaec2admin</admin>
+            <annotator>annotatorGroup</annotator>
+            <schema>Born</schema>
+        </project>  
+         <project name="FilmProject" numOfAnnotator="2">
+            <admin>anaforaec2admin</admin>
+            <annotator>annotatorGroup</annotator>
+            <schema>FilmReviews</schema>
+        </project>
+
+	 <project name="SentenceProject" numOfAnnotator="2">
+            <admin>anaforaec2admin</admin>
+            <annotator>annotatorGroup</annotator>
+            <schema>Sentence</schema>
+        </project>
+
+	</projects>
+	<schemas>
+	<schema name="Medicine">
+			<file>demomedicalschema.xml</file>
+		</schema>
+
+        <schema name="Born">
+            <file>born-schema.xml</file>
+        </schema> 
+
+ 	<schema name="FilmReviews">
+		<file>FilmReviews.xml</file>
+    </schema>
+
+	<schema name="Sentence">
+		<file>SentenceReviews.xml</file>
+	</schema>
+        </schemas>
+</setting>

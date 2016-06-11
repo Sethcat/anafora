@@ -1,0 +1,20 @@
+#control-context {
+    position: absolute;
+    top: 340px;
+    width: 100%;
+}
+
+#pre_or_next {
+	text-align:center;
+}
+
+#button-pre {
+
+}
+
+#button-next {
+    float: right;
+    right: 35px;
+    position: absolute;
+
+}

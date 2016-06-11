@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+<info>
+  <savetime>16:04:06 23-04-2016</savetime>
+  <progress>in-progress</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>1@e@doc22@anafora</id>
+		<span>113,129</span>
+		<type>总体_z</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+			<评价></评价>
+		</properties>
+	</entity>
+
+	<entity>
+		<id>2@e@doc22@anafora</id>
+		<span>353,383</span>
+		<type>导演_d</type>
+		<parentsType>Entities</parentsType>
+		<properties>
+			<评价></评价>
+		</properties>
+	</entity>
+
+</annotations>
+
+</data>

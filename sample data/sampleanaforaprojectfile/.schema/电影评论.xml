@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema>
+<definition>
+<entities type="Entities" color="a60000">
+
+	<entity type="总体" color="FFA3A3" hotkey="z">
+		<properties>
+			  <property type="评价" input="choice">,1,0,-1,uncertain</property>
+		</properties>
+	</entity>
+
+	<entity type="导演" color="65CF69" hotkey="d">
+		<properties>
+			  <property type="评价" input="choice">,1,0,-1,uncertain</property>
+		</properties>
+	</entity>
+	
+	<entity type="演员" color="FFA321" hotkey="y">
+		<properties>
+			  <property type="评价" input="choice">,1,0,-1,uncertain</property>
+		</properties>
+	</entity>
+	
+	<entity type="剧情" color="FFFF85" hotkey="j">
+		<properties>
+			 <property type="评价" input="choice">,1,0,-1,uncertain</property>
+		</properties>
+	</entity>
+	
+	<entity type="人物" color="FFDEAD" hotkey="r">
+		<properties>
+			  <property type="评价" input="choice">,1,0,-1,uncertain</property>
+		</properties>
+	</entity>
+	
+	<entity type="情感" color="2E8B57" hotkey="q">
+		<properties>
+			  <property type="评价" input="choice">,1,0,-1,uncertain</property>
+		</properties>
+	</entity>
+	
+	<entity type="配乐" color="00CED1" hotkey="p">
+		<properties>
+			  <property type="评价" input="choice">,1,0,-1,uncertain</property>
+		</properties>
+	</entity>
+	
+	<entity type="摄像" color="00BFFF" hotkey="s">
+		<properties>
+			  <property type="评价" input="choice">,1,0,-1,uncertain</property>
+		</properties>
+	</entity>
+	
+	<entity type="细节" color="FF4500" hotkey="x">
+		<properties>
+			  <property type="评价" input="choice">,1,0,-1,uncertain</property>
+		</properties>
+	</entity>
+	
+	<entity type="null" color="BA55D3" hotkey="n">
+		<properties>
+			  <property type="评价" input="choice">,1,0,-1,uncertain</property>
+		</properties>
+	</entity>
+	
+	<entity type="思想" color="C71585" hotkey="t">
+		<properties>
+			  <property type="评价" input="choice">,1,0,-1,uncertain</property>
+		</properties>
+	</entity>
+	
+	<entity type="uncertain" color="FFC0CB" hotkey="u">
+		<properties>
+			  <property type="评价" input="choice">,1,0,-1,uncertain</property>
+		</properties>
+	</entity>
+</entities>
+
+</definition>
+</schema>
