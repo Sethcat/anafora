@@ -5,3 +5,4 @@ What's more, this branch has added the following function: start annotating from
 This branch was based on anafora https://github.com/weitechen/anafora
 
 Waiting for the follow-up updates...
+This branch still remains some bugs.
