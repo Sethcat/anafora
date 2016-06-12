@@ -29,10 +29,7 @@ LOGGING = {
              'level': 'DEBUG',
              'class': 'logging.FileHandler',
              'formatter': 'verbose',
-             'filename': '/home/anafora/anafora-1.0.0/src/main/logs/django_request.log',
-             #'filename': '/home/seth/Documents/logs/django_request.log'
-             #'filename': '/etc/apache2/logs/django_request.log',
-             #'filename': '/var/www/logs/django_request.log',
+             'filename': 'Your log file path',
              },
      },
      'loggers': {
@@ -51,16 +48,6 @@ LOGGING = {
 logging.config.dictConfig(LOGGING)
 
 
-#DATABASES = {
-#    'default': {
-#        'ENGINE': 'django.db.backends.', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-#        'NAME': '',                      # Or path to database file if using sqlite3.
-#        'USER': '',                      # Not used with sqlite3.
-#        'PASSWORD': '',                  # Not used with sqlite3.
-#        'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
-#        'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
-#    }
-#}
 DATABASES = {'default':{}}
 
 # Local time zone for this installation. Choices can be found here:
@@ -99,7 +86,7 @@ MEDIA_URL = ''
 # Don't put anything in this directory yourself; store your static files
 # in apps' "static/" subdirectories and in STATICFILES_DIRS.
 # Example: "/home/media/media.lawrence.com/static/"
-STATIC_ROOT = '/home/anafora/anafora-1.0.0/src/main/static'
+STATIC_ROOT = 'Your STATIC_ROOT path'
 
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
@@ -112,7 +99,6 @@ STATICFILES_DIRS = (
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
     '',
-    #'/home/anafora/anafora-1.0.0/src/main/static/',
 )
 
 # List of finder classes that know how to find static files in
@@ -124,7 +110,7 @@ STATICFILES_FINDERS = (
 )
 
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = 'sethq54df1q7pr-z#8@dt=w!1t!!zjrlo0so=ei*lvro=0y8+n260e'
+SECRET_KEY = 'your secret key'
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
@@ -156,7 +142,7 @@ ROOT_URLCONF = 'web.urls'
 WSGI_APPLICATION = 'web.wsgi.application'
 
 TEMPLATE_DIRS = (
-    "/home/anafora/anafora-1.0.0/src/Templates",
+    "",
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
@@ -231,10 +217,9 @@ LOGGING = {
 TEST_RUNNER = 'testing.DatabaselessTestRunner'
 
 # Assign the anafora project file directory path
-#ANAFORA_PROJECT_FILE_ROOT = "/home/anafora/anafora-project-root"
-ANAFORA_PROJECT_FILE_ROOT = "/home/anafora/anafora-1.0.0/sample data/sampleanaforaprojectfile"
+ANAFORA_PROJECT_FILE_ROOT = ""
 # Assign the Digest auth group file location
-GROUP_FILE = '/home/anafora/anafora-1.0.0/anafora.authgroup'
+GROUP_FILE = ''
 
 # Assign the group name for the admin
 ADMIN_GROUPNAME = 'anaforaadmin'
