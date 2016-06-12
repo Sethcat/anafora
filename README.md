@@ -3,3 +3,5 @@ This branch was designed to change the way anafora representsthe document. The s
 What's more, this branch has added the following function: start annotating from the item last exits.
 
 This branch was based on anafora https://github.com/weitechen/anafora
+
+Waiting for the follow-up updates...
